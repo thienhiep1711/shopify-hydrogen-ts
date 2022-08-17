@@ -6,11 +6,11 @@ export default defineConfig({
     defaultLanguageCode: 'EN',
     storeDomain:
       // @ts-ignore
-      Oxygen?.env?.SHOPIFY_STORE_DOMAIN || 'hiep-nguyen-hydrogen-ts.myshopify.com',
+      Oxygen?.env?.SHOPIFY_STORE_DOMAIN || 'hiep-nguyen-hydrogen-tsx.myshopify.com',
     storefrontToken:
       // @ts-ignore
       Oxygen?.env?.SHOPIFY_STOREFRONT_API_PUBLIC_TOKEN ||
-      'ae63e4fa1189b2b18edefb3deaa53c6f',
+      '0884ad36021a88159e10eed5af3359b4',
     storefrontApiVersion: '2022-07',
   }),
   session: CookieSessionStorage('__session', {
