@@ -167,7 +167,7 @@ function DesktopHeader({
     <header role="banner" className={styles.container}>
       <div className="flex gap-12">
         <Link className={`font-bold`} to="/">
-          {title}
+          Hiep Nguyen
         </Link>
         <nav className="flex gap-8">
           {/* Top level menu items */}
